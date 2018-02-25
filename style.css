@@ -1,3 +1,7 @@
+html *{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 #Header, #footer{
   background-color: #547980;
   min-height: 75px;
@@ -25,6 +29,24 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+#aboutMe, #Projects{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#Projects ul{
+  display: inline;
+  list-style: none;
+}
+
+#Projects li{
+  padding-bottom: 25px;
+}
+
+#Projects span{
+  padding-right: 25px;
 }
 
 #about{
