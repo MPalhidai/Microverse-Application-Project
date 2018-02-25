@@ -15,6 +15,28 @@
 #headerLinks{
   float: right;
   margin-right: 50px;
-  padding: 10px;
+}
 
+#headerLinks * {
+  margin-left: 10px;
+}
+
+#Top{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#about{
+  text-align: center;
+}
+
+#links li {
+  display: inline-block;
+  padding: 35px;
+}
+
+#links li img {
+  max-height: 25px;
+  max-width: 25px;
 }
