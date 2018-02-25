@@ -1,4 +1,4 @@
-#Header{
+#Header, #footer{
   background-color: #547980;
   min-height: 75px;
   display: flex;
@@ -6,13 +6,13 @@
   justify-content: space-between;
 }
 
-#headerName{
+#headerName, #footerText{
   float: left;
   margin-left: 50px;
 
 }
 
-#headerLinks{
+#headerLinks, #footerIcons{
   float: right;
   margin-right: 50px;
 }
@@ -36,7 +36,7 @@
   padding: 35px;
 }
 
-#links li img {
+#links li img, #footerIcons a img {
   max-height: 25px;
   max-width: 25px;
 }
