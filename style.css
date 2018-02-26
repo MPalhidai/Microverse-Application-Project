@@ -26,9 +26,14 @@ html *{
 }
 
 #Top{
+  background: #9de0ad;
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+#pic img {
+  border-radius: 100%;
 }
 
 #aboutMe, #Projects{
@@ -54,7 +59,8 @@ html *{
 }
 
 #links li {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   padding: 35px;
 }
 
