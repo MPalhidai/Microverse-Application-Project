@@ -2,12 +2,17 @@ html *{
   font-family: Helvetica, Arial, sans-serif;
 }
 
+body{
+  padding-top: 50px;
+}
+
 a:link{
   text-decoration: none;
 }
 
 #Header, #footer{
-  background-color: #547980;
+  background-color: #212121;
+  color: gray;
   min-height: 75px;
   display: flex;
   align-items: center;
@@ -38,6 +43,8 @@ a:link{
 
 #pic img {
   border-radius: 100%;
+  width: 100%;
+  height: auto;
 }
 
 #aboutMe, #Projects{
