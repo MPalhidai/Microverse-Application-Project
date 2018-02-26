@@ -79,7 +79,3 @@ a:link{
   max-height: 25px;
   max-width: 25px;
 }
-
-a:visited, a:link {
-    color: black;
-}
